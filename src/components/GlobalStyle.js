@@ -15,6 +15,7 @@ body {
 }
 
 button {
+  font-family: sans-serif;
   padding: 1rem 2rem;
   cursor: pointer;
   font-weight: bold;
