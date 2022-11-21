@@ -5,6 +5,8 @@ export const About = styled.div`
   min-height: 90vh;
   align-items: center;
   justify-content: space-between;
+  padding: 10rem 10rem 0;
+
 `;
 export const Description = styled.div`
   flex: 1;

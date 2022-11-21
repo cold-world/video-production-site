@@ -7,7 +7,7 @@ import homeImg2 from '../img/home2.png';
 import { About, Description, Image } from '../style';
 import styled from 'styled-components';
 
-const ServicesSection = () => {
+const   ServicesSection = () => {
   return (
     <Services>
       <Description>

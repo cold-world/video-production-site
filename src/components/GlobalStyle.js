@@ -7,9 +7,9 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+
 body {
   color: white;
-  padding: 5rem 10rem;
   background-color: #1B1B1B;
   font-family: sans-serif;
 }
