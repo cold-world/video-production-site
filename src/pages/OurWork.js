@@ -4,14 +4,21 @@ import { Link } from 'react-router-dom';
 import atheleteimg from '../img/athlete-small.png';
 import racerimg from '../img/theracer-small.png';
 import goodtimesimg from '../img/goodtimes-small.png';
+import { pageAnimation } from '../animation';
+import { motion } from 'framer-motion';
 
 const OurWork = () => {
   return (
-    <StyledOurWork>
+    <StyledOurWork
+      variants={pageAnimation}
+      initial='hidden'
+      animate='show'
+      exit='exit'
+    >
       <Movie>
         <h2>The Athlete</h2>
         <div className='line'></div>
-        <Link to='/'>
+        <Link to='/work/the-athlete'>
           <img src={atheleteimg} alt='athlete' />
         </Link>
         <p>
@@ -22,7 +29,7 @@ const OurWork = () => {
       <Movie>
         <h2>The Racer</h2>
         <div className='line'></div>
-        <Link to='/'>
+        <Link to='/work/the-racer'>
           <img src={racerimg} alt='The Racer' />
         </Link>
         <p>
@@ -33,7 +40,7 @@ const OurWork = () => {
       <Movie>
         <h2>Good Times</h2>
         <div className='line'></div>
-        <Link to='/'>
+        <Link to='/work/good-times'>
           <img src={goodtimesimg} alt='Good Times' />
         </Link>
         <p>
@@ -45,7 +52,7 @@ const OurWork = () => {
   );
 };
 
-const StyledOurWork = styled.div`
+const StyledOurWork = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 7rem 10rem;
@@ -56,7 +63,7 @@ const StyledOurWork = styled.div`
 const Movie = styled.div`
   text-align: center;
   :not(:last-child) {
-    padding-bottom: 8rem;   
+    padding-bottom: 8rem;
   }
   .line {
     height: 0.3rem;
