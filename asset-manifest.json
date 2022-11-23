@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/video-production-site/static/js/main.8fa6572f.js",
+    "main.js": "/video-production-site/static/js/main.8065ae5c.js",
     "static/js/787.37faa4c4.chunk.js": "/video-production-site/static/js/787.37faa4c4.chunk.js",
     "static/media/good-times2.jpg": "/video-production-site/static/media/good-times2.4ea1be179615d4b3ab59.jpg",
     "static/media/goodtimes-small.png": "/video-production-site/static/media/goodtimes-small.94ab060d85c99adbb13f.png",
@@ -15,10 +15,10 @@
     "static/media/money.svg": "/video-production-site/static/media/money.2e18c561a4e6c930cf9f5dad8d44802c.svg",
     "static/media/diaphragm.svg": "/video-production-site/static/media/diaphragm.fb1e5b13ade6e4d1c1c3e0f93229b50d.svg",
     "index.html": "/video-production-site/index.html",
-    "main.8fa6572f.js.map": "/video-production-site/static/js/main.8fa6572f.js.map",
+    "main.8065ae5c.js.map": "/video-production-site/static/js/main.8065ae5c.js.map",
     "787.37faa4c4.chunk.js.map": "/video-production-site/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8fa6572f.js"
+    "static/js/main.8065ae5c.js"
   ]
 }
